@@ -2,10 +2,12 @@
 This resource says what it does on the box, Items with their own storage.
 
 If you want a backpack that you can store items in, this can do it.
-If you want a pizza box to put pizza into, this can do it.
-If you want a cigarette box with cigarettes already in the pouch, this can do it.
-If you want me to give you $100, you are in the wrong place.
 
+If you want a pizza box to put pizza into, this can do it.
+
+If you want a cigarette box with cigarettes already in the pouch, this can do it.
+
+If you want me to give you $100, you are in the wrong place.
 
 # License
 

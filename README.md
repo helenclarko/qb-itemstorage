@@ -54,4 +54,4 @@ You will need to create each item in your shared items.lua file before it can be
 ## Credits
 Many thanks to FjamZoo#0001 who helped to point me towards scripts which helped with creating this.
 
-You can view more of my creations on my Roleplayserver "Loop City RP" and in our discord: https://discord.gg/RjmCnhDV
+You can view more of my creations on my Roleplay server "Loop City RP" and in our discord: https://discord.gg/RjmCnhDV

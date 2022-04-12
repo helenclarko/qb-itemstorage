@@ -1,4 +1,4 @@
-# qb-itemstorage. Items with Storage!. 
+# qb-itemstorage. Items with Storage!
 
 # License
 
@@ -39,7 +39,7 @@ Be sure to use the following as a template in your shared items.lua file under t
 You will need to create each item in your shared items.lua file before it can be used in the config.
 
 ```lua
-['cigarettebox'] 				 = {['name'] = 'cigarettebox', 			  	  	['label'] = 'Cigarette Box', 			['weight'] = 13, 		['type'] = 'item', 		['image'] = '69-brand-pack.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A ciggarette box for holding cigarettes'},
+['cigarettebox'] 				 = {['name'] = 'cigarettebox', 			  	  	['label'] = 'Cigarette Box', 			['weight'] = 13, 		['type'] = 'item', 		['image'] = '69-brand-pack.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A cigarette box for holding cigarettes'},
 ```
 
 ## Credits

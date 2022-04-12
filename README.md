@@ -51,5 +51,9 @@ You will need to create each item in your shared items.lua file before it can be
 ['cigarettebox'] 				 = {['name'] = 'cigarettebox', 			  	  	['label'] = 'Cigarette Box', 			['weight'] = 13, 		['type'] = 'item', 		['image'] = '69-brand-pack.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A cigarette box for holding cigarettes'},
 ```
 
+### TO DO
+This probably needs some kind of SQL cleanup.
+It will make a large number of table rows for each item that exists
+
 ## Credits
 Many thanks to FjamZoo#0001 who helped to point me towards scripts which helped with creating this.

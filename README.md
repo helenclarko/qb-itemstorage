@@ -20,7 +20,7 @@
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
-- [qb-inventory](https://github.com/qbcore-framework/qb-inventory) - Also works other mixes like aj-inventory
+- [qb-inventory](https://github.com/qbcore-framework/qb-inventory) - Also works on other mixes like aj-inventory
 
 ## Features
 - Add items with storage

@@ -61,7 +61,7 @@ If you are using tnj-inventory, you need to add a decay and created value in you
 You will also need to add the following into the itemstorage config.lua file for each item you are adding by default. 
 This line can go in under "useable = true" for each item.
 ```lua
-quality = 100
+info = {quality = 100}
 ```
 
 ## Credits

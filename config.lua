@@ -27,6 +27,7 @@ Config.Storage = {
 				image = "69-brand-pack.png",
 				slot = 1,
 				label = "Cigarette"
+				info = {} -- if you use tnj-inventory, you will need to add quality = 100 between the brackets
 			}
 		}
 	},

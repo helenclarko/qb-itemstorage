@@ -51,6 +51,19 @@ You will need to create each item in your shared items.lua file before it can be
 ['cigarettebox'] 				 = {['name'] = 'cigarettebox', 			  	  	['label'] = 'Cigarette Box', 			['weight'] = 13, 		['type'] = 'item', 		['image'] = '69-brand-pack.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A cigarette box for holding cigarettes'},
 ```
 
+## tnj-inventory setup
+If you are using tnj-inventory, you need to add a decay and created value in your qb-core/shared/items for all items, the decay is set to be the days the item lasts
+```lua
+["created"] = nil
+["decay"] = 28.0 -- for 28 days
+```
+
+You will also need to add the following into the itemstorage config.lua file for each item you are adding by default. 
+This line can go in under "useable = true" for each item.
+```lua
+quality = 100
+```
+
 ## Credits
 Many thanks to FjamZoo#0001 who helped to point me towards scripts which helped with creating this.
 

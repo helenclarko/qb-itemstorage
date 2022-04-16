@@ -28,6 +28,7 @@ Config.Storage = {
 				slot = 1,
 				label = "Cigarette"
 				info = {} -- if you use tnj-inventory, you will need to add quality = 100 between the brackets
+				-- created = os.time() -- uncomment this line of you are using tnj-inventory
 			}
 		}
 	},

@@ -5,7 +5,12 @@
 -- You will need to create each item in your shared items.lua file before it can be used in this config.
 -- Check the README for the shared items.lua template
 
-Config = {}
+local QBCore = exports['qb-core']:GetCoreObject()
+local time = 0
+
+QBCore.Functions.TriggerCallback('itemstorage:time', function(result)
+	time = result
+end)
 
 Config = {}
 
@@ -28,7 +33,7 @@ Config.Storage = {
 				slot = 1,
 				label = "Cigarette",
 				info = {}, -- if you use tnj-inventory, you will need to add quality = 100 between the brackets
-				-- created = os.time() -- uncomment this line of you are using tnj-inventory
+				-- created = time -- uncomment this line of you are using tnj-inventory
 			}
 		}
 	},

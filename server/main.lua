@@ -34,3 +34,8 @@ QBCore.Functions.CreateCallback('itemstorage:GenerateUniqueName', function(sourc
 		cb(name .. stash)
 	end
 end)
+
+QBCore.Functions.CreateCallback('itemstorage:Time', function(source, cb)
+	local time = os.time()
+	cb(time)
+end)

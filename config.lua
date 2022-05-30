@@ -25,7 +25,7 @@ Config.Storage = {
 				image = "69-brand-pack.png",
 				slot = 1,
 				label = "Cigarette",
-				info = {},
+				info = nil,
 			}
 		}
 	},

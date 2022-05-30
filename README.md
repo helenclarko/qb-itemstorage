@@ -58,12 +58,6 @@ If you are using tnj-inventory, you need to add a decay and created value in you
 ["decay"] = 28.0 -- for 28 days
 ```
 
-You will also need to add the following into the itemstorage config.lua file for each item you are adding by default. 
-This line can go in under "useable = true" for each item.
-```lua
-info = {quality = 100}
-```
-
 ## Credits
 Many thanks to FjamZoo#0001 who helped to point me towards scripts which helped with creating this.
 
